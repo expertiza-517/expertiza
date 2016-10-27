@@ -43,3 +43,11 @@ describe 'Test mailer' do
   end
 
 end
+
+describe EmailSpec::EmailViewer do
+  describe ".open_in_browser" do
+    it "should open with launchy" do
+      EmailSpec::EmailViewer.open_in_browser("a_file")
+    end
+  end
+end
