@@ -79,6 +79,7 @@ group :test do
   gem 'rspec-rails'
   gem 'shoulda'
   gem 'test-unit'
+  gem 'email_spec'
 end
 
 group :assets do
